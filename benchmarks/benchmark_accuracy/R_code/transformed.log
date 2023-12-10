@@ -1,9 +1,0 @@
-nohup: ignoring input
-Package 'mclust' version 6.0.0
-Type 'citation("mclust")' for citing this R package in publications.
-[1] "Started execution on: 2023-11-18 16:52:06"
-[1] "Processing: Pollen"
-[1] "Processing: Darmanis"
-[1] "Processing: Usoskin"
-[1] "Processing: Mouse_pan"
-[1] "Processing: Muraro"
