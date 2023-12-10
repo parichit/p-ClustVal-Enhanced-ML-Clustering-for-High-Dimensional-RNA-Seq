@@ -12,19 +12,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-base_path = "/u/parishar/nobackup/DATASETS/exp_data/raw_data/"
-centroid_path = "/u/parishar/nobackup/DATASETS/exp_data/benchmark_1_centroids/"
-
-# file_list = ["pollen_raw.csv", "darmanis_raw.csv", "usoskin_raw.csv", "mouse_pan.csv", 
-#              "Muraro_raw.csv", "QSDiaphragm_raw.csv"]
-
-# data_list = ["Pollen", "Darmanis", "Usoskin", "Mouse_pan", "Muraro", "QSDiaphragm"]
-
-# label_list = ["labels_pollen.csv", "labels_darmanis.csv", "labels_usoskin.csv", 
-#               "labels_mouse_pan.csv", "labels_Muraro.csv", "labels_QSDiaphragm.csv"]
-
-# centroids_file = ["PollenCentroids", "DarmanisCentroids", "UsoskinCentroids", 
-#             "Mouse_panCentroids", "MuraroCentroids", "QSDiaphragmCentroids"]
+# Put the full path to the folder containing the CSV files here
+base_path = "raw_data/"
 
 
 file_list = ["pollen_raw.csv", "darmanis_raw.csv", "usoskin_raw.csv", "mouse_pan.csv", 

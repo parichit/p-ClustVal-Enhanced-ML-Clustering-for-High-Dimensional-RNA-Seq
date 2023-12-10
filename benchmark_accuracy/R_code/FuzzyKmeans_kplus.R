@@ -2,6 +2,8 @@ library(mclust)
 library(e1071)
 library(aricode)
 
+
+# Provide the path to the folder containing the CSV files on command line
 args <- commandArgs(trailingOnly=TRUE)
 BASE_PATH <- args[1]
 

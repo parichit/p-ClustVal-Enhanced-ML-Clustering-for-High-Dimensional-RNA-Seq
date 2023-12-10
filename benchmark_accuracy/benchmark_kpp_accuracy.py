@@ -12,8 +12,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-base_path = "/u/parishar/nobackup/DATASETS/exp_data/raw_data/"
-centroid_path = "/u/parishar/nobackup/DATASETS/exp_data/benchmark_1_centroids/"
+# Put the full path to the folder containing the CSV files here
+base_path = "raw_data/"
 
 
 file_list = ["pollen_raw.csv", "darmanis_raw.csv", "usoskin_raw.csv", "mouse_pan.csv", 
@@ -69,18 +69,6 @@ def load_data(file_name, label_name):
     return data, labels
 
 
-
-# def load_centroids(centroid_file_name, data_type, rep):
-    
-#     if data_type == "raw":
-#         file_path = os.path.join(centroid_path, centroid_file_name + "_raw_" + rep + ".csv")
-#     elif data_type == "std":
-#         file_path = os.path.join(centroid_path, centroid_file_name + "_std_" + rep + ".csv")
-#     elif data_type == "transformed":
-#         file_path = os.path.join(centroid_path, centroid_file_name + "_transformed_" + rep + ".csv")
-        
-#     data = pd.read_csv(file_path, sep=",", header=None)   
-#     return data
 
 
 def load_centroids(centroid_data, data_name, rep):

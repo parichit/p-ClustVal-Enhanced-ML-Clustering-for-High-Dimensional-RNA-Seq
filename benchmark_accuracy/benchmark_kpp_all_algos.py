@@ -12,8 +12,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-base_path = "/u/parishar/nobackup/DATASETS/exp_data/raw_data/"
-centroid_path = "/u/parishar/nobackup/DATASETS/exp_data/benchmark_1_centroids/"
+# Put the full path to the folder containing the CSV files here
+base_path = "raw_data/"
 
 
 file_list = ["pollen_raw.csv", "darmanis_raw.csv", "usoskin_raw.csv", "mouse_pan.csv", 

@@ -11,7 +11,8 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics.cluster import adjusted_rand_score as ari, normalized_mutual_info_score as nmi
 
 
-base_path = "/u/parishar/nobackup/DATASETS/exp_data/raw_data/"
+# Put the full path to the folder containing the CSV files here
+base_path = "raw_data/"
 
 # file_list = ["pollen_raw.csv", "darmanis_raw.csv", "usoskin_raw.csv", "mouse_pan.csv", 
 #              "Muraro_raw.csv", "QSDiaphragm_raw.csv"]
@@ -56,11 +57,6 @@ data_num_clusters = {"Usoskin": 4, "Pollen": 11,
              "Mouse_pan": 13, "Darmanis": 8, "Muraro": 9,
              "QSLimb": 6, "QSLung": 11, "Q10XSpleen": 5, 
              "QSTrachea": 4, "QSDiaphragm": 5}
-
-
-# data_num_clusters = {"Usoskin": 4, "Pollen": 11,
-#                     "Mouse_pan": 13, "Darmanis": 8, 
-#                     "Muraro": 6, "QSDiaphragm": 5}
 
 
 
