@@ -1,0 +1,41 @@
+nohup: ignoring input
+Processing:  Pollen
+Data Shape:  (299, 21468)
+Genes to be removed: 1516
+Data Shape:  (299, 19952) 299
+Processing:  Darmanis
+Data Shape:  (420, 21516)
+Genes to be removed: 2094
+Data Shape:  (420, 19422) 420
+Processing:  Usoskin
+Data Shape:  (622, 19532)
+Genes to be removed: 1509
+Data Shape:  (622, 18023) 622
+Processing:  Mouse_pan
+Data Shape:  (1884, 14878)
+Genes to be removed: 2978
+Data Shape:  (1884, 11900) 1884
+Processing:  Muraro
+Data Shape:  (2122, 19046)
+Genes to be removed: 3723
+Data Shape:  (2122, 15323) 2122
+Processing:  QSLimb
+Data Shape:  (1090, 23341)
+Genes to be removed: 6665
+Data Shape:  (1090, 16676) 1090
+Processing:  QSTrachea
+Data Shape:  (1350, 23341)
+Genes to be removed: 4944
+Data Shape:  (1350, 18397) 1350
+Processing:  QSLung
+Data Shape:  (1676, 23341)
+Genes to be removed: 6077
+Data Shape:  (1676, 17264) 1676
+Processing:  QSDiaphragm
+Data Shape:  (870, 23341)
+Genes to be removed: 7528
+Data Shape:  (870, 15813) 870
+Processing:  Q10XSpleen
+Data Shape:  (9552, 23341)
+Genes to be removed: 13626
+Data Shape:  (9552, 9715) 9552
