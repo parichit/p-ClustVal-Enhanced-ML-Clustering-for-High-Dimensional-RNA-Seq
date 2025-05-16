@@ -7,7 +7,7 @@ widely used clustering algorithms and dimension reduction techniques, amplifying
 ### Workflow of p-adic transformation
 
 <div align="center">
-  <img src="images/Figure4.jpg" alt="Image description" width="500">
+  <img src="images/Figure4.jpg" alt="Image description" width="750">
   </br>
 </div>
 
