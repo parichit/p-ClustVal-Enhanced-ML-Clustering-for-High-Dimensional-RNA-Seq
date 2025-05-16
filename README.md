@@ -4,14 +4,14 @@
 widely used clustering algorithms and dimension reduction techniques, amplifying their effectiveness in discovering meaningful structure from data. The transformation uses a data-centric heuristic to determine optimal parameters, without relying on ground truth labels, making it more user-friendly. p-ClustVal reduces overlap between clusters by employing alternate metric spaces inspired by p-adic-valuation, a significant shift from conventional methods. Our comprehensive evaluation spanning 30 experiments and over 1400 observations, shows that p-ClustVal improves performance in 91% of cases, and boosts the performance of classical and state of the art (SOTA) methods. This work contributes to data analytics and genomics by introducing a unique data transformation approach, enhancing downstream clustering algorithms, and providing empirical evidence of p-ClustVal’s efficacy. The study concludes with insights into the limitations of p-ClustVal and future research directions.
 
 
-### Workflow of p-adic transformation
+### Workflow of p-ClustVal transformation
 
 <div align="center">
-  <img src="images/Figure4.jpg" alt="Image description" width="750">
+  <img src="images/Figure4.jpg" alt="Image description" width="800">
   </br>
 </div>
 
-__Figure 1:__ **Data generation phase:** The samples are extracted from the tissue of interest, followed by cell library preparation and high throughput sequencing. The obtained sequences are aligned with a reference genome. The result is a matrix that stores gene transcripts counts per cell. **Data analysis phase:** The data goes through initial quality control to remove low quality cells and genes, normalization, feature subset selection or dimensionality reduction, building cell similarity matrix either in the lower dimensional or original feature space, and clustering.
+__Figure 1:__ Algorithmic workflow in p-ClustVal: (Steps 1-3), processing the raw data to filter low quality cells and genes, followed by data normalization and scaling. (Step 4), finding the optimal parameters in a data- centric manner and applying the p-ClustVal transform. (Step 5), applying clustering on the transformed data.
 
 
 ### Dependency
